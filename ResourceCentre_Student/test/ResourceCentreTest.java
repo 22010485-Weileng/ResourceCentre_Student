@@ -166,7 +166,7 @@ public class ResourceCentreTest {
 	    assertEquals("Test that the display is correct.", testOutput, allCamcorder);
 	  }
 
-	}
+	
 
 	@Test
 	public void testDoLoanCamcorder() {
@@ -226,7 +226,7 @@ public class ResourceCentreTest {
         assertFalse("Test that the loan fails.", ok);
   }
 
-	}
+	
 
 	@Test
 	public void testDoReturnCamcorder() {
